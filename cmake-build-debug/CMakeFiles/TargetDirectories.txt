@@ -1,0 +1,3 @@
+/Users/MingWang/Cinder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/MingWang/Cinder/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/MingWang/Cinder/cmake-build-debug/CMakeFiles/cinder.dir

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BasicApp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\proj\;CMake Files\..\..\..\..\proj\cmake\;CMake Files\..\..\..\..\proj\cmake\modules\;CMake Files\..\..\..\..\lib\;CMake Files\..\..\..\..\lib\macosx\;CMake Files\..\..\..\..\lib\macosx\Debug\;CMake Files\..\..\..\..\cmake-build-debug\;CMake Files\..\..\..\..\cmake-build-debug\lib\;CMake Files\..\..\..\..\cmake-build-debug\lib\macosx\;CMake Files\..\..\..\..\cmake-build-debug\lib\macosx\Debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BasicApp">
+				<Option output="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Debug/BasicApp/BasicApp.app/Contents/MacOS/BasicApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/MingWang/Cinder/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicApp"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BasicApp/fast">
+				<Option output="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Debug/BasicApp/BasicApp.app/Contents/MacOS/BasicApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/MingWang/Cinder/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicApp/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/MingWang/Cinder/samples/BasicApp/src/BasicApp.cpp">
+			<Option target="BasicApp"/>
+		</Unit>
+		<Unit filename="/Users/MingWang/Cinder/samples/data/CinderApp.icns">
+			<Option target="BasicApp"/>
+		</Unit>
+		<Unit filename="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/../../../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/../../../../proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/../../../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/../../../../lib/macosx/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/MingWang/Cinder/samples/BasicApp/proj/cmake/../../../../cmake-build-debug/lib/macosx/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\cmake-build-debug\lib\macosx\Debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
